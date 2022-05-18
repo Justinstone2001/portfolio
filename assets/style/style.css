@@ -2,12 +2,38 @@
     height: 100px;
     width: auto;
     background-color:rgb(243, 149, 149);
+    padding: 20px;
     
 }
 
-.links{
-    position: relative;
-    left: 200px;
+#author{
+    font-weight: bolder;
+    text-align: center;
+    font-family: optima;
+    font-size: 30px;
+    border-style: solid;
+    border-radius: 40px;
+    width: 300px;
+    background-color: rgb(209, 209, 229);
+    padding: 8px;
+}
+
+nav {
+    padding-top: 15px;
+    margin-right: 20px;    
+    float: right;    
+    font-family: Optima;    
+    font-size: 20px;
+}
+
+nav a {
+    display: inline-block;    
+    margin-left: 25px;
+}
+
+.aboutMe{
+    background-color: rgb(249, 249, 249);
+    height: 200px;
 }
 
 
