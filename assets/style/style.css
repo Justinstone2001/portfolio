@@ -1,9 +1,10 @@
+
+
 .menu{
     height: 100px;
     width: auto;
-    background-color:rgb(243, 149, 149);
+    background-color:rgb(130, 174, 200);
     padding: 20px;
-    
 }
 
 #author{
@@ -12,16 +13,15 @@
     font-family: optima;
     font-size: 30px;
     border-style: solid;
-    border-radius: 40px;
+    border-radius: 100px;
     width: 300px;
-    background-color: rgb(209, 209, 229);
+    background-color: rgb(251, 251, 255);
     padding: 8px;
 }
 
 nav {
-    padding-top: 15px;
     margin-right: 20px;    
-    float: right;    
+    text-align: right;    
     font-family: Optima;    
     font-size: 20px;
 }
@@ -31,9 +31,78 @@ nav a {
     margin-left: 25px;
 }
 
+
+
+
+.headers{
+    border-style: solid;
+    border-radius: 100px;
+    width: 120px;
+    padding: 8px;
+    font-family: Optima;
+    font-size: 22px;
+    margin-top:8px;
+    margin-left: 90px;
+    text-align: center;
+    background-color: white;
+}
+
+.content{
+    height: auto;
+    background-color: rgb(203, 202, 198);
+    border-style: solid;
+    
+}
+
+#soccer{
+    float: right;
+}
+
 .aboutMe{
-    background-color: rgb(249, 249, 249);
+    font-family: Optima;
+    font-size: 18px;
+    padding: 8px;
+    line-height: 1cm;
+
+    
+}
+
+#work{
+    font-family: Optima;
+    font-size: 18px;
+    padding: 8px;
+    line-height: 1cm;
+}
+
+#contactMe{
+    background-color: rgb(250, 250, 250);
     height: 200px;
 }
+
+
+#cellBox{
+    margin-top: 20px;
+
+}
+.numbers{
+    border-style: solid;
+    font-family: Optima;
+    border-color:black;
+    color: rgb(50, 136, 186);
+    height: auto;
+    width: auto;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 8px;
+    background-color: white;
+    
+}
+
+.numbers:hover{
+    background-color: black;
+}
+
+
+
 
 
