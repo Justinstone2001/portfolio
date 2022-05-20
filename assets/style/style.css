@@ -72,12 +72,13 @@ nav a:hover {
     border-style: solid;
 }
 
-.photos{
+.photos {
     margin-left: 50px;
     margin-top: 20px;
     display: inline-flex;
     border-style: solid;
-    
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -176,7 +177,7 @@ nav a:hover {
         color: rgb(148, 126, 178);
     }
 
-    .headers{
+    .headers {
         box-shadow: 0 0 15px rgb(144, 75, 194);
     }
 }
