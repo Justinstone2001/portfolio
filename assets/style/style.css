@@ -1,15 +1,15 @@
-:root{
+:root {
     --tarheel: rgb(50, 136, 186);
 }
 
-.menu{
+.menu {
     height: 160px;
     width: auto;
-    background-color:rgb(130, 174, 200);
+    background-color: rgb(130, 174, 200);
     padding: 20px;
 }
 
-#author{
+#author {
     font-weight: bolder;
     text-align: center;
     font-family: optima;
@@ -23,20 +23,20 @@
 
 nav {
     margin-right: 20px;
-    margin-top:50px;    
-    text-align: right;    
-    font-family: Optima;    
+    margin-top: 50px;
+    text-align: right;
+    font-family: Optima;
     font-size: 20px;
 }
 
 nav a {
-    display: inline-block;    
+    display: inline-block;
     margin-left: 25px;
     margin-top: -70px;
     text-decoration: none;
     border-style: solid;
     font-family: Optima;
-    border-color:black;
+    border-color: black;
     color: var(--tarheel);
     height: auto;
     width: auto;
@@ -45,51 +45,57 @@ nav a {
     padding: 8px;
     background-color: white;
 }
-nav a:hover{
-    background-color:black;
+
+nav a:hover {
+    background-color: black;
     font-weight: bolder;
 }
 
-.headers{
+.headers {
     border-style: solid;
     border-radius: 100px;
     width: 120px;
     padding: 8px;
     font-family: Optima;
     font-size: 22px;
-    margin-top:8px;
-    margin-left: 90px;
     text-align: center;
     background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.content{
+.content {
     height: auto;
     background-color: rgb(203, 202, 198);
     border-style: solid;
 }
 
-#soccer{
-    display: inline-block;
-    margin-top: 8px;
-}
-
-.aboutMe{
-    font-family: Optima;
-    font-size: 18px;
-    padding: 8px;
-    line-height: 1cm;
-}
-
-#work{
-    font-family: Optima;
-    font-size: 18px;
-    padding: 8px;
-    line-height: 1cm;
+.photos{
+    margin-left: 50px;
+    margin-top: 20px;
+    display: inline-flex;
     
 }
 
-#SPA{
+
+
+.aboutMe {
+    font-family: Optima;
+    font-size: 18px;
+    padding: 8px;
+    line-height: 1cm;
+}
+
+#work {
+    font-family: Optima;
+    font-size: 18px;
+    padding: 8px;
+    line-height: 1cm;
+
+}
+
+#SPA {
     height: 200px;
     width: 400px;
     font-family: Optima;
@@ -99,17 +105,17 @@ nav a:hover{
 }
 
 
-#SPA:hover{
+#SPA:hover {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg');
     background-position: center;
-    background-size:300px;
+    background-size: 300px;
     opacity: .7;
     cursor: pointer;
     font-weight: bolder;
     font-family: Optima;
 }
 
-#CSC{
+#CSC {
     height: 200px;
     width: 400px;
     font-family: Optima;
@@ -118,28 +124,28 @@ nav a:hover{
     margin-bottom: 16px;
 }
 
-#CSC:hover{
+#CSC:hover {
     background-image: url('https://assets-global.website-files.com/60e615980cab093e6f2db3c3/60f1c685e1930d349901bcbc_GettyImages-1172685336.jpeg');
     background-position: center;
-    background-size:360px;
+    background-size: 360px;
     opacity: .7;
     cursor: pointer;
     font-weight: bolder;
     font-family: Optima;
 }
 
-#contactMe{
-    height:200px;
+#contactMe {
+    height: 200px;
 }
 
-#cellBox{
-    margin-top: 20px;
+#cellBox {
+    margin-top: 60px;
 }
 
-.numbers{
+.numbers {
     border-style: solid;
     font-family: Optima;
-    border-color:black;
+    border-color: black;
     color: rgb(50, 136, 186);
     height: auto;
     width: auto;
@@ -147,27 +153,25 @@ nav a:hover{
     font-size: 25px;
     padding: 8px;
     background-color: white;
+    margin-left: 40px;
 }
 
-.numbers:hover{
+.numbers:hover {
     background-color: black;
     font-weight: bolder;
 }
 
 
-@media screen and (max-width: 992px){
-    .menu{
+@media screen and (max-width: 992px) {
+    .menu {
         background-color: rgb(177, 157, 203)
     }
-    nav a{
+
+    nav a {
         color: rgb(148, 126, 178);
     }
-    .numbers{
+
+    .numbers {
         color: rgb(148, 126, 178);
     }
 }
-
-
-
-
-
