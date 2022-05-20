@@ -3,7 +3,7 @@
 }
 
 .menu{
-    height: 100px;
+    height: 160px;
     width: auto;
     background-color:rgb(130, 174, 200);
     padding: 20px;
@@ -22,7 +22,8 @@
 }
 
 nav {
-    margin-right: 20px;    
+    margin-right: 20px;
+    margin-top:50px;    
     text-align: right;    
     font-family: Optima;    
     font-size: 20px;
@@ -98,6 +99,8 @@ nav a:hover{
     margin-bottom: 16px;
 
 }
+
+
 #SPA:hover{
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg');
     background-position: center;
@@ -106,11 +109,32 @@ nav a:hover{
     cursor: pointer;
     font-weight: bolder;
     font-family: Optima;
+    height:200px;
+}
+
+#CSC{
+    height: 200px;
+    width: 400px;
+    font-family: optima;
+    font-size: 25px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+#CSC:hover{
+    background-image: url('https://assets-global.website-files.com/60e615980cab093e6f2db3c3/60f1c685e1930d349901bcbc_GettyImages-1172685336.jpeg');
+    background-position: center;
+    background-size:360px;
+    opacity: .7;
+    cursor: pointer;
+    font-weight: bolder;
+    font-family: Optima;
+    height:200px;
+
 }
 
 #contactMe{
-    background-color: rgb(250, 250, 250);
-    height: 200px;
+    height:200px;
 }
 
 
