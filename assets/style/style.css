@@ -63,6 +63,7 @@ nav a:hover {
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    box-shadow: 0 0 15px rgb(66, 155, 206);
 }
 
 .content {
@@ -75,6 +76,7 @@ nav a:hover {
     margin-left: 50px;
     margin-top: 20px;
     display: inline-flex;
+    border-style: solid;
     
 }
 
@@ -161,7 +163,6 @@ nav a:hover {
     font-weight: bolder;
 }
 
-
 @media screen and (max-width: 992px) {
     .menu {
         background-color: rgb(177, 157, 203)
@@ -173,5 +174,9 @@ nav a:hover {
 
     .numbers {
         color: rgb(148, 126, 178);
+    }
+
+    .headers{
+        box-shadow: 0 0 15px rgb(144, 75, 194);
     }
 }
