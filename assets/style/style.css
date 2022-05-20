@@ -73,10 +73,13 @@ nav a:hover {
 }
 
 .photos {
-    margin-left: 50px;
-    margin-top: 20px;
+
     display: inline-flex;
     border-style: solid;
+    box-shadow: 0 0 15px rgb(50, 136, 186);
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -103,6 +106,9 @@ nav a:hover {
     font-size: 25px;
     margin-top: 8px;
     margin-bottom: 16px;
+    box-shadow: 0 0 15px rgb(50, 136, 186);
+    margin-left: 40px;
+    margin-right:40px;
 }
 
 
@@ -123,6 +129,9 @@ nav a:hover {
     font-size: 25px;
     margin-top: 8px;
     margin-bottom: 16px;
+    box-shadow: 0 0 15px rgb(50, 136, 186);
+    margin-left: 40px;
+    margin-right:40px;
 }
 
 #CSC:hover {
@@ -137,6 +146,7 @@ nav a:hover {
 
 #contactMe {
     height: 200px;
+    background-color: rgb(130, 174, 200);
 }
 
 #cellBox {
@@ -164,7 +174,7 @@ nav a:hover {
 
 @media screen and (max-width: 992px) {
     .menu {
-        background-color: rgb(177, 157, 203)
+        background-color: rgb(177, 157, 203);
     }
 
     nav a {
@@ -178,4 +188,17 @@ nav a:hover {
     .headers {
         box-shadow: 0 0 15px rgb(144, 75, 194);
     }
+    .photos{
+        box-shadow: 0 0 15px rgb(144, 75, 194);
+    }
+    #SPA{
+        box-shadow: 0 0 15px rgb(144, 75, 194)
+    }
+    #CSC{
+        box-shadow: 0 0 15px rgb(144, 75, 194)
+    }
+    #contactMe{
+        background-color: rgb(177, 157, 203);
+    }
+
 }
