@@ -1,4 +1,6 @@
-
+:root{
+    --tarheel: rgb(50, 136, 186);
+}
 
 .menu{
     height: 100px;
@@ -24,7 +26,6 @@ nav {
     text-align: right;    
     font-family: Optima;    
     font-size: 20px;
-    
 }
 
 nav a {
@@ -35,7 +36,7 @@ nav a {
     border-style: solid;
     font-family: Optima;
     border-color:black;
-    color: rgb(50, 136, 186);
+    color: var(--tarheel);
     height: auto;
     width: auto;
     text-decoration: none;
@@ -46,9 +47,6 @@ nav a {
 nav a:hover{
     background-color:black;
 }
-
-
-
 
 .headers{
     border-style: solid;
@@ -70,7 +68,8 @@ nav a:hover{
 }
 
 #soccer{
-    float: right;
+    display: inline-block;
+    margin-top: 8px;
 }
 
 .aboutMe{
@@ -95,6 +94,9 @@ nav a:hover{
     width: 400px;
     font-family: optima;
     font-size: 25px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+
 }
 #SPA:hover{
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg');
@@ -132,6 +134,20 @@ nav a:hover{
 
 .numbers:hover{
     background-color: black;
+}
+
+
+@media screen and (max-width: 992px){
+    .menu{
+        background-color: rgb(177, 157, 203)
+    }
+    nav a{
+        color: rgb(148, 126, 178);
+    }
+    .numbers{
+        color: rgb(148, 126, 178);
+    }
+    
 }
 
 
