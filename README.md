@@ -18,7 +18,7 @@ This is my professional portfolio. In my professional portfolio I have made link
 ![Horiseon](./assets/images/portfolio.png)
 
 ## Resources
-[LIVE SITE](https://justinstone2001.github.io/seo-refactor/)
+[LIVE SITE](https://justinstone2001.github.io/portfolio/)
 
-[Repository](https://github.com/Justinstone2001/seo-refactor)
+[Repository](https://github.com/Justinstone2001/portfolio)
 
