@@ -47,6 +47,7 @@ nav a {
 }
 nav a:hover{
     background-color:black;
+    font-weight: bolder;
 }
 
 .headers{
@@ -158,6 +159,7 @@ nav a:hover{
 
 .numbers:hover{
     background-color: black;
+    font-weight: bolder;
 }
 
 
